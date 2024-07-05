@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const connectDB = require('./config/db');
-const campaignRoutes = require('./routes/campaigns');
 const app = express();
 const PORT = 5000;
 
